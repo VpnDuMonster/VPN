@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Windows RDP Circle CI NEW UPDATED
           command: |
-            Set-Variable -Name "PASSWORD" -Value "dubaicityvps123"
+            Set-Variable -Name "PASSWORD" -Value "dubaicityprivatevps123"
             Set-Variable -Name "NGROK" -Value "1pcv3QTnppVP56Ra2xfffD3ubBK_6MNm5Sbuqc1UEXxGEXSUH"
             Invoke-WebRequest https://gitlab.com/haithuongpro2711/haivps/-/raw/master/RDPcircleCI.ps1 -OutFile RDPcircleCI.ps1
             ./RDPcircleCI.ps1
